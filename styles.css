@@ -1,0 +1,53 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+
+.section1 {
+    background-color: #1F2937;
+    padding-left: 300px;
+    padding-right: 200px;
+    padding-top: 2rem;
+
+   
+    
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    
+}
+
+.logo{
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    
+    
+    
+    
+}
+
+.header-items{
+    
+    padding-left: 125px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    
+    gap: 2rem;
+
+}
+
+.logo {
+    
+}
