@@ -8,12 +8,50 @@
 
 .section1 {
     background-color: #1F2937;
-    padding-left: 300px;
-    padding-right: 200px;
-    padding-top: 2rem;
-
-   
+    padding: 2rem 300px 200px;
     
+
+}
+
+.section1-content {
+    padding-top: 7rem;
+    
+}
+
+.section1 h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+
+.section1 p {
+    margin-top: 20px;
+    font-size: 18px;
+    width: 600px;
+    color: #E5E7EB;
+}
+
+.section1 button {
+    border: 0px;
+    margin-top: 3rem;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.section1-img img {
+    height: 250px;
+    width: 700px;
+}
+
+.section1-content {
+    display: flex;
+    justify-content: space-between;
 }
 
 img {
@@ -22,9 +60,7 @@ img {
     
 }
 
-.logo{
-    
-}
+
 
 .header{
     display: flex;
