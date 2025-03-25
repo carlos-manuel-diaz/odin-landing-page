@@ -84,6 +84,59 @@ img {
 
 }
 
-.logo {
+ .box, .box2, .box3, .box4 {
+
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 25px;
+    
+}
+
+.box {
+    background-size: 200px, 200px;
+    background-image: url(/content/cessna.png);
+}
+.box2 {
+    background-size: 200px;
+    background-image: url(/content/commercial.png);
+}
+.box3 {
+    background-image: url(/content/cessna.png);
+}
+.box4 {
+    background-image: url(/content/cessna.png);
+}
+
+.box-and-text {
+    width: 200px;
+    height:219px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.section2-content{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 300px 200px;
+}
+
+.section2-boxes {
+    width: 1000px;
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
     
 }
